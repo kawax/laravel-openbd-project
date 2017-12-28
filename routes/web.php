@@ -25,4 +25,3 @@ Route::get('schema', function () {
 Route::get('get/{isbn}', function ($isbn) {
     dd(\OpenBD::get(explode(',', $isbn)));
 });
-
